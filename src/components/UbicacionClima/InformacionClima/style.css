@@ -1,0 +1,52 @@
+.infoClimaCont {
+    background-color: rgb(56, 56, 56);
+    width: 450px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 20px 20px;
+    margin: auto;
+}
+
+.climaInfoExtraCont {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.temperaturaClimaCont { 
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.temperature {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: snow;
+
+}
+
+.extraInfoText {
+    display: flex;
+    color: white;
+}
+
+
+.temperatureType {
+    color: snow;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-top:13px;
+    margin-right: 30px;
+    
+}
+.weatherDataTemperatureCont i {
+    color: rgb(255, 195, 98);
+}
